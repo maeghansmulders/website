@@ -16,12 +16,14 @@ body {
 a {
 text-decoration: none;
 color: #282828;
+transition: color .3s ease-in-out;
+text-decoration: none;
+
 }
 
 header{
   background: url('../images/background.jpg') 50% fixed;
   background-size: cover;
-
   -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
@@ -29,25 +31,35 @@ header{
 h1 {
  font-size: 45px;
  text-align: center;
+ font-family: 'Permanent Marker', cursive;
+ font-weight: light;
 }
 h2 {
  font-size: 38px;
  font-family: 'Raleway Dots', cursive;
  text-align: center;
 }
-h1,h3 {
+h3 {
  font-family: 'Permanent Marker', cursive;
  font-weight: light;
+ font-size: 25px;
 }
 section {
  padding: 80px 100px;
 }
-#work,
+
 #contact {
  color: #282828;
  background: #f2f2f2;
 }
 
+
+#work{
+  background: #282828;
+  color: #f2f2f2;
+  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
+   clip-path: polygon(2015px 90%, 4500px 35%, 0 0, 0 1000%)
+}
 
 
 /* PAGE MENU
@@ -90,7 +102,7 @@ header {
 header h1 {
  font-size: 80px;
  margin: 0;
- color: #FFFFFF;
+ color: #ffffff;
 }
 
 
@@ -99,6 +111,26 @@ header h1 {
 #about {
  overflow: hidden;
 }
+
+.boxed {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFFFFF;
+  padding:9px 70px;
+}
+
+#about .boxed {
+  position: relative;
+  width: 420px;
+  margin-top: 70px;
+}
+
+#about .boxed img.profile {
+  position: absolute;
+  left: 500px;
+  top: -70px;
+  z-index: -1;
+}
+
 
 /* WORK & RIG
 -----------------------------------------*/
@@ -156,7 +188,7 @@ header h1 {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #282828 url(img/link.png) no-repeat center 20%;
+    background: #282828 no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
@@ -216,8 +248,9 @@ header h1 {
  text-align: center;
  background: url('../images/blog.jpg') 50% fixed;
  background-size: cover;
- -webkit-clip-path: polygon(0 0, 3500px 0, 3500px 50%, 0 50%);
- clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+ -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}
 }
 
 .blog {
