@@ -7,10 +7,13 @@
 </head>
 <body>
 	<ul class="menu">
+		<div class="topnav" id="myTopnav">
 		<li><a href="#about">About</a></li>
 		<li><a href="#work">Work</a></li>
 		<li><a href="#blog">Blog</a></li>
 		<li><a href="#contact">Contact</a></li>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
 	</ul>
 
 	<header>
@@ -94,12 +97,13 @@
 	</li>
 </section>
 
+<div style="background-color: #282828;">
 <section id="blog">
 			<h1>Blog</h1>
 			<button class="button">
 				<a href="https://medium.com/@maeghansmulders/latest">Read blog</a></button>
 </section>
-
+</div>
 
 <section id="contact">
 		<h2>Keep in touch</h2>
@@ -145,6 +149,22 @@ $(function() {
     }
   });
 });
+
+/* MENU RESPONSIVE - HAMBURGER
+---------------------------------*/
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+/* END OF MENU JAVASCRIPT
+-----------------------------------------*/
+
 </script>
 
 </body>
