@@ -6,6 +6,7 @@
 
 html {
  box-sizing: border-box;
+ -webkit-text-size-adjust: none
 }
 
 body {
@@ -16,6 +17,8 @@ body {
  background: #f2f2f2;
  line-height: 1.4;
  font-size: 15px;
+ max-width: 100%;
+ width: 100%;
 }
 
 a {
@@ -123,6 +126,7 @@ header h1 {
 header p {
   display: inline-block;
   width: 363px;
+  max-width: 100%;
 }
 
 
@@ -165,6 +169,20 @@ header p {
   }
   #about .boxed img.profile {
     display: none;
+  }
+  header {
+    padding: 120px 8% 30px;
+  }
+  header h1 {
+    font-size: 50px;
+    line-height: 1;
+  }
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  * {
+    -webkit-clip-path: none !important;
   }
 }
 
