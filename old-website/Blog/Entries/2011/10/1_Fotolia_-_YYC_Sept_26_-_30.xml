@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="CFDAB2D0-B371-4474-B995-48F2F6321F85">
+  <lastEdited clientType="local-build-20120401" date="2012-04-01 08:54:23 -0600"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Day #1 - excitement. growth. &amp; fear. &lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, October 1, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;So my first day of Project ONE12, was the day after I celebrated my 24th birthday. Pretty crazy hey?! I think this journey is a great way to celebrate a new year :) &#xD;&#xD;My first week of interning brought me to Fotolia, a stock photography company in downtown Calgary that has some inspirational and unique individuals running the business. &#xD;&#xD;&lt;-- this is me, my first day. :) I had the weirdest rush of emotions that morning, I was super nervous... because I didn&#x2019;t really know what I was getting myself into, but I was also super stoked because I was anxious to start working and being busy again! &lt;/b&gt;</richText>
+  </textBox>
+</content>

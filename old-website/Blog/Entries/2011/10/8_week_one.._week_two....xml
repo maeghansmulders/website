@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="CFDAB2D0-B371-4474-B995-48F2F6321F85">
+  <lastEdited clientType="local-build-20111008" date="2011-10-08 21:32:48 -0600"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;week one.. week two... &lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, October 8, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;&#xD;Hey hey, an update from LA! :) &#xD;&#xD;Thank you guys so much for watching! I really hope you are learning some things and the thoughts are valuable.   I am excited to share, and always look forward to questions or comments, so please feel free to give me a shout any time :) &#xD;&#xD;Lots of love!&#x2028;&#x2028;Maegs&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;Here are some pictures of the trip!&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="8_week_one.._week_two..._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="CFDAB2D0-B371-4474-B995-48F2F6321F85">
+  <lastEdited clientType="local-build-20111104" date="2011-11-04 16:10:12 -0600"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;This is why you should always tell your family and friends that you love them. &lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Friday, November 4, 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;This is my random post for the week, only to explain my delay in posting the Toronto job experience... but also to share a valuable lesson I learned about appreciating and loving those closest to you. &#xD;&#xD;The only thing we are guaranteed in life is death... so realizing that in a crazy situation motivated me to share this story with you.  &#xD;&#x2028;Promise me you will give your family a big hug, or send them a loving message. &lt;3 &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="4_This_is_why_you_should_always_tell_your_family_and_friends_that_you_love_them._files/shapeimage_1.png" left="0px" top="0px" width="700px" height="400px"/>
+</content>
