@@ -13,10 +13,10 @@ body {
  padding: 0;
  margin: 0;
  color: #282828;
- font-family: 'Raleway', sans-serif;
+ font-family: 'Encode Sans Condensed', sans-serif;
  background: #f2f2f2;
  line-height: 1.4;
- font-size: 15px;
+ font-size: 16px;
  max-width: 100%;
  width: 100%;
 }
@@ -26,6 +26,7 @@ text-decoration: none;
 color: #282828;
 transition: color .3s ease-in-out;
 text-decoration: none;
+font-family: 'Encode Sans Condensed', sans-serif;
 
 }
 
@@ -38,19 +39,19 @@ header{
 
 h1 {
  font-size: 45px;
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Amatic SC', cursive;
  font-weight: light;
  text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
  line-height: 65px;
 
 }
 h2 {
- font-size: 38px;
- font-family: 'Raleway Dots', cursive;
+ font-size: 50px;
+ font-family: 'Amatic SC', cursive;
  text-align: center;
 }
 h3 {
- font-family: 'Permanent Marker', cursive;
+ font-family: 'Amatic SC', cursive;
  font-weight: light;
  font-size: 25px;
 }
@@ -118,13 +119,14 @@ header {
 
 }
 header h1 {
- font-size: 80px;
+ font-size: 88px;
  margin: 0;
  color: whitesmoke;
 }
 
 header p {
   display: inline-block;
+  font-size: 20px;
   width: 363px;
   max-width: 100%;
 }
@@ -199,6 +201,7 @@ header p {
 
 #work p{
    text-align: center;
+
 }
 
 #rig {
@@ -272,7 +275,7 @@ header p {
     text-transform:capitalize;
     font-size:20px;
     font-weight:bold;
-    font-family:'Raleway', cursive;
+    font-family: 'Encode Sans Condensed', sans-serif;
     font-weight:normal!important;
     top:40%;
     color:#E1E0E0;
