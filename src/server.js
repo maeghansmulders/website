@@ -30,6 +30,22 @@ app.get('/', (req, res, next) => {
   res.render('home');
 });
 
+app.get('/project/:projectName', (req, res, next) => {
+  let template;
+
+  switch(req.params.projectName) {
+    case 'passwordbox':
+      template = 'project_passwordbox';
+      break;
+
+    case 'projectone12':
+      template = 'projectone12';
+      break;
+  }
+
+  res.render(template);
+});
+
 console.log('Express server starting...');
 app.listen(3000, () => {
   console.log('Server is is online');
