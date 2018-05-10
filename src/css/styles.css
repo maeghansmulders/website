@@ -31,7 +31,7 @@ font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 header{
-  background: url('../images/background.jpg') 50% fixed;
+  background: url('/assets/images/background.jpg') 50% fixed;
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
@@ -316,7 +316,7 @@ header p {
 -----------------------------------------*/
 #blog {
  text-align: center;
- background: url('../images/blog.jpg') 50% fixed;  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
+ background: url('/assets/images/blog.jpg') 50% fixed;  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
  clip-path: polygon(2015px 90%, 4500px 35%, 0 0, 0 1000%);
  padding-top: 210px;
  padding-bottom: 210px;
