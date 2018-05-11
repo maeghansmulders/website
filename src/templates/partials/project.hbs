@@ -1,15 +1,25 @@
-<br><br><br><br>
-<h2>
-	{{> title}}
-</h2>
+<div class="project">
+	<header style="background-image: url({{> backgroundUrl}});">
+	  <div class="wrapper">
+	  	<h1>{{> title}}</h1>
+	  </div>
+	</header>
 
-<h3>Description:</h3>
+	<div class="wrapper">
+		<h4>Description:</h4>
 
-{{> description}}
+		{{> description}}
 
-<hr>
+		<hr>
 
-{{> longer_description}}
+		{{> longer_description}}
 
+		<p class="roles">{{> roles}}</p> 
+	</div>
 
-<p>{{> roles}}</p>
+	<div class="feature">
+		<div class="wrapper">
+			{{> feature}}
+			
+	</div>
+</div>
