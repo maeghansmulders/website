@@ -41,6 +41,10 @@ app.get('/project/:projectName', (req, res, next) => {
     case 'projectone12':
       template = 'projectone12';
       break;
+
+    default:
+      template = req.params.projectName;
+      break;
   }
 
   res.render(template);
