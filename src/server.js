@@ -1,6 +1,9 @@
 const express = require('express');
 const hbs = require('express-handlebars');
 const path = require('path');
+const argv = require('minimist')(process.argv.slice(2));
+
+console.log('CLI Arguments', argv)
 
 const app = express();
 
@@ -50,7 +53,8 @@ app.get('/project/:projectName', (req, res, next) => {
   res.render(template);
 });
 
+const PORT = argv.port || 3000;
 console.log('Express server starting...');
-app.listen(3000, () => {
-  console.log('Server is is online');
+app.listen(PORT, () => {
+  console.log(`Server is is online, listening on port ${PORT}`);
 });
