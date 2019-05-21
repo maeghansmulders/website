@@ -1,99 +1,55 @@
 <header>
   <div class="wrapper">
     <h1>Maeghan Smulders</h1>
-    <p><b>A tall, homeschooled, well traveled, terrible speller, who loves building things and is hilarious at times.</p></b>
+    <p><b>A passionate storyteller, tech fanatic & creator of things.</p></b>
   </div>
 </header>
-
 <div class="wrapper">
   <section id="about">
-    <div class="boxed">
-      <img class="profile" src="/assets/images/profile.jpg">
-      <h2>Hi there,</h2>
-      <p>I’m a product marketer / creative soul that was born in Calgary and lives between Montreal, Canada and San Francisco, California.</p>
-      <p>I solve problems in unconventional ways: I founded ProjectONE12, an initiative to intern at 10 different companies in 112 days across North America. My goal was to gain experience then define a career path that was right for me.</p>
-      <p>I love technology like PasswordBox: a startup I joined as Director of Product Marketing.  We launched the app from private beta and engaged with millions of users around the world.</p>
-      <p>I’m grateful for the opportunities with Intel: after PasswordBox was acquired I became an evangelist, growth hacker launch and creative strategist. I worked with household names in developing creative campaigns, leading strategic partnership announcements, global training & education. I had the chance to be the face of True Key by Intel Security.</p>
-    </div>
-  </div>
-  </section>
-  <section id="work">
-  <h2>Work & Projects</h2>
-  <p>I'm on a mission to do big things with people I admire, and strongly believe it starts with finding passion and purpose. <br>Here's a peek of some work that includes collaborations with folks from the White House, Girls Learning Code, Microsoft and more.</p>
-
-  <ul id="rig">
-    {{>
-      project_block
-      url="https://archive.maeghansmulders.com/Home.html?utm_source=website&utm_medium=work&utm_campaign=project_112"
-      image="/assets/images/projectone12.jpg"
-      text="Project ONE12"
-    }}
-
-    {{>
-      project_block
-      url="https://techcrunch.com/2014/12/01/intel-buys-passwordbox-to-add-id-management-to-its-security-business/?utm_source=website&utm_medium=work&utm_campaign=passwordbox"
-      image="/assets/images/passwordbox.jpg"
-      text="PasswordBox"
-    }}
-
-    {{>
-      project_block
-      url="https://mashable.com/2016/04/12/intel-security-commercial/?utm_source=website&utm_medium=work&utm_campaign=true_key#D0ZRRs1NaZqJ"
-      image="/assets/images/intel.jpg"
-      text="Intel"
-    }}
-
-    {{>
-      project_block
-      url="https://www.youtube.com/playlist?list=PLFxQvGFq1yRWGhtBWgUrGgBwkSwBLGpzA"
-      image="/assets/images/jimparson.jpg"
-      text="Videos & Commercials"
-    }}
-
-    {{>
-      project_block
-      url="https://www.youtube.com/playlist?list=PLFxQvGFq1yRWGhtBWgUrGgBwkSwBLGpzA&utm_source=website&utm_medium=work&utm_campaign=commercials"
-      image="/assets/images/videos.jpg"
-      text="Creative Campaigns"
-    }}
-
-    {{>
-      project_block
-      url="https://www.youtube.com/playlist?list=PLFxQvGFq1yRXGhIc12kbQFaLnrxXnBWfQ&utm_source=website&utm_medium=work&utm_campaign=speaking"
-      image="/assets/images/balancingact.jpg"
-      text="Speaker & Personality"
-    }}
-
-    {{>
-      project_block
-      url="https://alittledetour.ca/"
-      image="/assets/images/Alittledetour.jpg"
-      text="A Little Detour"
-    }}
-
-    {{>
-      project_block
-      url="https://www.facebook.com/watch/?v=10150570643153530"
-      image="/assets/images/house.jpg"
-      text="Volunteering"
-    }}
-  </ul>
-    
-  </section>
-  <div style="background-color: #282828;">
-    <section id="blog">
-      <div class="row">
-        <div class="col-xs-12 col-sm">
-          <h2>My Blog</h2>
-          <p>Sometimes I write stuff on Medium.</p>
-          <button class="button">
-          <a href="https://medium.com/@maeghansmulders/latest?utm_source=website&utm_medium=blog&utm_campaign=medium">Read more</a>
-          </button>
+    <div class="grid-container grid-columns-2">
+      <div class="grid-item" style="background-image:url(/assets/images/profile.jpg);"></div>
+      <div class="grid-item">
+        <div class="boxed">
+          <h4>Hi there,</h4>
+          <p>I’m Maeghan. A full-stack product marketer and nomad of sorts. I solve problems in unconventional ways and always have a story to tell. My work and personal drive has taken me around the globe and I am forever grateful to have the opportunity to work on memorable things with incredible people.</p>
         </div>
       </div>
-    </section>
+    </div>
   </div>
+</section>
+<section id="work">
+  <h2>Work & Projects</h2>
+  <p>I'm on a mission to do big things with people I admire and strongly believe it starts with finding passion and purpose. <br>Here's a peek of some work that includes collaborations with folks from the White House, All-Girl Hack Night, Microsoft and more.</p>
+  <div class="work-projects grid-container grid-columns-3">
+    <div class="grid-item" style="background-image:url(/assets/images/projectone12.jpg);"><h1>Intern</h1></div>
+    <div class="grid-item" style="background-image:url(/assets/images/startup.jpg)"><h1>Startup</h1></div>
+    <div class="grid-item" style="background-image:url(/assets/images/corporate.jpg)"><h1>Corporate</h1></div>
+  </div>
+  <div class="work-projects grid-container grid-columns-2">
+    <div class="grid-item" style="background-image:url(/assets/images/volunteer.jpg);"><h1>Volunteer</h1></div>
+    <div class="grid-item" style="background-image:url(/assets/images/speaker.jpg);"><h1>Speaker</h1></div>
+  </div>
+</section>
 
+<div style="background-color: #282828;">
+  
+  <section id="blog">
+    <h2>Some Personal Things</h2>
+    <div class="transbox-container">
+      <div class="transbox">
+        <h4>A Little Detour</h4><br>
+        <button class="button">
+        <a href="https://medium.com/@maeghansmulders/latest?utm_source=website&utm_medium=blog&utm_campaign=medium">Two years traveling around the world.</a>
+        </button>
+      </div>
+      <div class="transbox">
+        <h4>Blog</h4><br>
+        <button class="button">
+        <a href="https://medium.com/@maeghansmulders/latest?utm_source=website&utm_medium=blog&utm_campaign=medium">Sometimes I write stuff on Medium</a>
+        </button>
+      </div>
+    </div>
+  </section>
   {{> contact}}
   {{> footer}}
 </div>
