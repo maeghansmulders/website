@@ -48,6 +48,8 @@ h1 {
  text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
  line-height: 65px;
  text-shadow: 2px 2px 4px #000000;
+ color: #FFFF;
+
 
 }
 h2 {
@@ -66,7 +68,7 @@ font-size: 48px;
 font-family: 'Amatic SC', cursive;
 margin-top: 0px;
 margin-bottom: -20px;
-color: #282828;
+color: #FFFFFF;
 }
 
 
@@ -163,20 +165,20 @@ header p {
   top: 15px;
   left: 15px;
   margin-right: 15px;
+  color: #FFFFFF;
 }
 
 .boxed:before {
   content: '';
   position: absolute;
-  background: #bababa;
-  border: 2px #bababa solid;
+  background: #3a3939;
+  border: 2px #3a3939 solid;
   top: -17px;
   left: -17px;
   width: 100%;
   height: 100%;
   z-index: -1;
 }
-
 
 
 @media screen and (max-width: 700px) {
@@ -210,7 +212,7 @@ header p {
 
 
 
-/* WORK & RIG
+/* WORK & BOXES
 -----------------------------------------*/
 #work{
   background: #282828;
@@ -251,6 +253,11 @@ header p {
   align-items: stretch;
   background-position: center center;
   background-size: cover;
+}
+
+.grid-item__center {
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-item > img {
@@ -352,6 +359,7 @@ div.transbox {
   background: rgba(255, 255, 255, .8);
   margin: 0 15px;
   padding: 15px;
+  color: #282828;
 }
 
 .transbox-container {
