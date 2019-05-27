@@ -20,7 +20,8 @@ body {
 }
 
 div.wrapper {
-  max-width: 1000px;
+  width: 1000px;
+  max-width: 100%;
   margin:0 auto;
   padding: 0 20px;
 }
@@ -136,13 +137,24 @@ section {
 /* HEADER
 -----------------------------------------*/
 header {
- padding: 310px 0 200px 0;
+ /*padding: 310px 0 200px 0;*/
+ height: 560px;
  color: #ffffff;
  text-align: right;
  padding-left: 8%;
  padding-right: 8%;
-
+ box-sizing: border-box;
+ padding-top: 75px;
+ display: flex;
+ align-items: center;
 }
+
+@media screen and (max-width: 700px) {
+  header {
+    height: 300px;
+  }
+}
+
 header h1 {
  font-size: 88px;
  margin: 0;
@@ -209,9 +221,9 @@ header p {
     padding-left: 20px;
     padding-right: 20px;
   }
-  * {
+  /** {
     -webkit-clip-path: none !important;
-  }
+  }*/
   .grid-container {
     grid-template-columns: 1fr;
   }
@@ -235,21 +247,23 @@ header p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   align-items: stretch;
   margin-bottom: 20px;
 }
 
-.grid-columns-1 {
-  grid-template-columns: repeat(1, 1fr);
-}
-.grid-columns-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-.grid-columns-3 {
-  grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 700px) {
+  .grid-columns-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .grid-item {
@@ -363,7 +377,7 @@ div.transbox {
   max-width: 300px;
   border: 2px dashed black;
   background: rgba(255, 255, 255, .8);
-  margin: 0 15px;
+  margin: 15px;
   padding: 15px;
   color: #282828;
 }
@@ -371,6 +385,13 @@ div.transbox {
 .transbox-container {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .transbox-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
