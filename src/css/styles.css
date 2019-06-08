@@ -242,8 +242,7 @@ header p {
 #work{
   background: #282828;
   color: #f2f2f2;
-  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
-   clip-path: polygon(160% 100%, 160% 20%, 0 0, 0 100%)
+  clip-path: polygon(100% 100%, 100% 60px, 0 0, 0 100%)
 }
 
 #work p{
@@ -328,8 +327,10 @@ h5 {
   background-color: #282828;
   color: white;
   padding: 45px 0;
-  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
-   clip-path: polygon(160% 100%, 160% 20%, 0 0, 0 100%)
+}
+
+.slant-light {
+  clip-path: polygon(100% 100%, 100% 60px, 0 0, 0 100%)
 }
 
 
