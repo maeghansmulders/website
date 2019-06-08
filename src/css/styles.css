@@ -39,8 +39,8 @@ font-family: 'Encode Sans Condensed', sans-serif;
 header{
   background: url('/assets/images/background.jpg') 50% fixed;
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
-   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
+   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
 }
 
 h1 {
@@ -155,7 +155,7 @@ header {
 
 @media screen and (max-width: 700px) {
   header {
-    height: 300px;
+    height: 380px;
     background-size: cover;
     background-attachment: inherit;
   }
@@ -242,7 +242,8 @@ header p {
 #work{
   background: #282828;
   color: #f2f2f2;
-  clip-path: polygon(100% 100%, 100% 60px, 0 0, 0 100%)
+  -webkit-clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%)
+  clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%)
 }
 
 #work p{
@@ -330,7 +331,8 @@ h5 {
 }
 
 .slant-light {
-  clip-path: polygon(100% 100%, 100% 60px, 0 0, 0 100%)
+  -webkit-clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%)
+  clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%)
 }
 
 
@@ -339,8 +341,9 @@ h5 {
 -----------------------------------------*/
 #blog {
  text-align: center;
- background: url('/assets/images/blog.jpg') 50% fixed;  -webkit-clip-path: polygon(0 0, 2400px 0, 2400px 87%, 0 100%);
- clip-path: polygon(2015px 90%, 4500px 35%, 0 0, 0 1000%);
+ background: url('/assets/images/blog.jpg') 50% fixed;
+ -webkit-clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%);
+ clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%);
  padding-top: 210px;
  padding-bottom: 210px;
  background-size: cover;
