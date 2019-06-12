@@ -37,7 +37,7 @@ font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 header{
-  background: url('/assets/images/background.jpg') 50% fixed;
+  background: url('/assets/images/maeghansmulders1.jpeg') 50% fixed;
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
@@ -341,7 +341,7 @@ h5 {
 -----------------------------------------*/
 #blog {
  text-align: center;
- background: url('/assets/images/blog.jpg') 50% fixed;
+ background: url('/assets/images/background_head1.jpeg') 50% fixed;
  -webkit-clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%);
  clip-path: polygon(100% 100%, 100% 40px, 0 0, 0 100%);
  padding-top: 210px;
