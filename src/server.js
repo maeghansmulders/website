@@ -53,6 +53,36 @@ app.get('/project/:projectName', (req, res, next) => {
   res.render(template);
 });
 
+app.use(function(req, res, next) {
+  res.status(404)
+
+  const doggos = [
+    "https://media.giphy.com/media/UkaZpqcieR38c/giphy.gif",
+    "https://media.giphy.com/media/xT0xeuOy2Fcl9vDGiA/giphy.gif",
+    "https://media.giphy.com/media/GBBVkpWFXCoy4/giphy.gif",
+    "http://giphygifs.s3.amazonaws.com/media/O4bJPHKNO52cU/giphy.gif",
+    "http://giphygifs.s3.amazonaws.com/media/qD6qDdUeyzfNu/giphy.gif",
+    "https://media.giphy.com/media/Vp9rYcsH1cIVO/giphy.gif"
+  ]
+
+  const selectedDoggo = doggos[Math.floor(Math.random() * doggos.length)]
+
+  if (req.accepts('html')) {
+    res.render('404', {
+      url: req.url,
+      doggo: selectedDoggo
+    })
+    return
+  }
+
+  if (req.accepts('json')) {
+    res.send({ error: 'Not found' })
+    return
+  }
+
+  res.type('txt').send('Not found')
+})
+
 const PORT = argv.port || 3000;
 console.log('Express server starting...');
 app.listen(PORT, () => {
