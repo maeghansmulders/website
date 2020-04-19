@@ -37,7 +37,7 @@ font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 header{
-  background: url('/assets/images/maeghansmulders1.jpeg') 50% fixed;
+  background: url('/assets/images/maeghansmulders.jpeg') 50% fixed;
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), 0 100%);
