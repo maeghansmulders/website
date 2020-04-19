@@ -441,3 +441,13 @@ div.transbox {
  width: 75%;
  margin: 0 auto;
 }
+
+.partial-book header {
+  height: 100vh;
+  text-align: left;
+  clip-path: none;
+}
+
+.partial-book h5 {
+  color: white;
+}
