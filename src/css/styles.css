@@ -451,3 +451,17 @@ div.transbox {
 .partial-book h5 {
   color: white;
 }
+
+div.book-hero-text-wrapper {
+  background: hsla(200, 0%, 10%, .5);
+  width: 460px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.button-book {
+  background: hsl(200, 80%, 40%);
+  margin: 0 auto 20px;
+  display: block;
+  width: 100%;
+}
