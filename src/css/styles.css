@@ -448,7 +448,7 @@ div.transbox {
 .partial-book header {
   min-height: 100vh;
   text-align: left;
-  clip-path: none;
+  clip-path: none !important;
 }
 
 .partial-book h5 {
